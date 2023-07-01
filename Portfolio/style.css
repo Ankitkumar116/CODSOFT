@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    padding: 15px 10px 10px 10px;
+    justify-content: space-between;
+    height: 8vh;
+}
+.main{
+    text-align: center;
+   background-color:rgb(167, 175, 139);
+    height: 100vh;
+}
+.button button{
+    background-color: aliceblue;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10%;
+    transition: .5s;
+}
+.button button:hover{
+    background-color: #55c1ec;
+}
+.logo{
+    color: white;
+    cursor:default;
+}
+ul a,.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+ul  li{
+    list-style: none;
+ 
+}
+.info ul{
+    display: flex;
+    width:300px;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: rgb(8, 9, 10);
+    transition: .2s;
+}
+.info a:hover{
+    border-bottom: 3px solid rgb(20, 19, 19);
+}
+.head{
+    margin-top: 40px;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+.text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+   /* /* display: flex; */
+   align-items: center;
+   justify-content: center;
+  
+   width: 100%;
+  
+}
+.head img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.text{
+    text-align: center;
+}
+.text p{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text div{
+    font-size: 28px;
+    color: rgb(13, 13, 16);
+}
+.fa {
+    padding: 10px;
+    text-decoration: none;
+  }
+.fa-github{
+    width: 50px;
+    color: black;
+    /* background: white; */
+}
+.fa-twitter{
+    color:#00acee ;
+}
+.fa-linkedin{
+    color:#0077b5;
+}
+#mid{
+    /* height: 100vh; */
+    text-align: center;
+    justify-content: center;
+    background:#c2cfd3
+}
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    padding-top: 0px;
+    justify-content: space-around;
+}
+.project div{
+    border: 2px solid rgb(118, 116, 116);
+    box-shadow: 5px 15px 18px #888888;
+    margin-top: 20px;
+    background-color: rgb(194, 220, 223);
+    transition: .5s;
+    border-radius: 5%;
+}
+.project div:hover{
+ background: #5491d7;
+}
+.project img{
+    padding: 10px;
+}
+#txt{
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#skill{
+    background-color: rgb(214, 246, 246);
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.profile img{
+    border-radius: 50%;
+}
+.elm img{
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#txt-1{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.elm p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.elm{
+    text-align: center;
+    background: #edf0e4;
+    width: 310px;
+    height: auto;
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10%;
+    transition: .5s;
+}
+.elm:hover{
+    background-color: #afd6e6;
+}
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  #center{
+    background-size: cover;
+    background-position: center;
+   width: 100%;
+   height: 100vh;
+   opacity: .8;
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/17/18/35/beach-2413081_1280.jpg);
+  }
+  label {
+    padding: 12px 12px 12px 12px;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    margin-left: 20%;
+    width: 60%;
+    background-color: #cec1d6;
+    padding: 0px;
+    margin-top: 20px;
+  }  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #foot{
+    background: #efe4e4;
+    width: 100%;
+  }
+  #foot div{
+    text-align: center;
+  }
+  #bottom{
+    text-align: center;
+    height:20px;
+    background-color: #ccd8dc;
+  }
+  #bottom p{
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(131, 126, 126);
+  }
+  @media only screen and (max-width:900px){
+    .text div{
+        font-size: 22px;
+    }
+    .profile img{
+        width: 300px;
+    }
+    .head{
+        flex-direction: column;
+    }
+    .profile{
+        margin-top: 20px;
+        margin-bottom: 10px;
+     }
+a:hover{
+    border-bottom: none;
+}
+  }
+  @media only screen and (max-width:700px){
+  .head{
+    width: 95%;
+    margin-top: 30px;
+    margin-left: 2.5%;
+  }
+  .container{
+    width: 80%;
+    margin-left: 10%;
+  }
+  h1{
+    font-size: 22px;
+  }
+  .profile{
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+ .profile{
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+ .profile img{
+    width: 250px;
+}
+  }
+  @media only screen and (max-width:600px){
+.head{
+    flex-direction: column;
+}
+
+.info ul{
+    width: 200px;
+}
+ul a{
+    font-size: 18px;
+}
+.button button {
+    padding: 4px;
+}
+.main{
+    height: auto;
+}
+  }
+  @media only screen and (max-width:400px){
+    .button button {
+        font-size: 13px;
+        padding: 2px;
+    }
+    .logo{
+        font-size: 18px;
+    }
+    ul a{
+        font-size: 16px;
+    }
+    .info ul{
+        width: 150px;
+    }
+    .text div{
+        font-size: 18px;
+    }
+    .container{
+        width: 92%;
+        margin-left: 4%;
+      }
+  }
