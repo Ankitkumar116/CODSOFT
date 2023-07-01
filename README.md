@@ -1,2 +1,2 @@
 # CODSOFT
-# calculator ( https://github.com/Ankitkumar116/CODSOFT/Calculator)
+# calculator ( https://github.com/ankitkumar116/CODSOFT/Calculator)
